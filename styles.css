@@ -1,0 +1,223 @@
+@charset "utf-8";
+
+/*
+INF-146 Project 2 – My Town - Responsive
+SPRING 2023
+
+Written by: Aaron Carbonell
+Date: 04/23/2023 
+filename:
+*/
+
+html {
+    margin: 0 auto;
+    background-color: rgb(168, 168, 29);
+}
+
+/* Body Styles */
+
+body{
+	margin: 0px;
+    background-color: rgb(168, 168, 29);
+    font-family: Tahoma;
+}
+
+/* Header Syles */
+
+header {
+	background-color: rgb(67, 114, 55);
+	overflow: hidden;
+}
+
+header > a > h1 {
+    margin: 0 auto;
+    font-size: 2.0em;
+    text-align: center;
+}
+
+header > a {
+    text-decoration: none;
+    color: white;
+}
+
+body > img {
+    width: 100%;
+    height: auto;
+}
+
+/*
+Navigation
+*/
+
+nav {
+	text-align: center;
+    display: table;
+    width: 100%;
+    font-family: Tahoma;
+}
+nav > ul {
+    display: table-row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+nav > li {
+    float: left;
+}
+
+nav > li > a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav > li > a:hover:not(.active) {
+    background-color: red;
+}
+
+nav .active {
+    background-color: #4CAF50;
+}
+
+/* Home Page Styles */
+div#contact {
+	margin: 20px;
+}
+
+/* Image Styles */
+/*
+img {
+	margin-top: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+*/
+
+
+/* List Styles */
+.housing-types {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+      }
+.housing-types li {
+        list-style-type: none;
+        background-color: #f0f0f0;
+        padding: 20px;
+        border-radius: 10px;
+      }
+.housing-types li ul {
+        margin: 0;
+        padding: 0;
+      }
+.housing-types li ul li {
+        list-style-type: disc;
+        margin-left: 20px;
+      }
+.housing-types li ul li ul {
+        margin: 0;
+        padding: 0;
+      }
+.housing-types li ul li ul li {
+        list-style-type: circle;
+        margin-left: 20px;
+      }
+
+
+/* Parks and Rec Styles */
+
+div#parks_container, div#rec_container {
+	overflow: hidden;
+   
+}
+div#parks_container {
+	background-color: #48E3ED;
+}
+
+div#rec_container {
+	background-color: rgb(95, 237, 72);
+}
+
+/* History Page */
+div#hist1, div#hist2, div#hist3, div#hist4 {
+	overflow:hidden;
+}
+
+div#Fact1 {
+    background-color: rgb(140, 187, 207);
+    margin: 0 auto;
+    text-align: center;
+}
+div#Fact1 > ul {
+    text-align: left;
+}
+
+div#Fact2 {
+    background-color: rgb(158, 140, 207);
+    margin: 0 auto;
+    text-align: center; 
+}
+
+div#Fact2 > ul {
+    text-align: left;
+}
+div#Fact3 {
+    background-color: rgb(207, 179, 140);
+    margin: 0 auto;
+    text-align: center;    
+}
+
+div#Fact3 > ul {
+    text-align: left;
+}
+
+div#Fact4 {
+    background-color: rgb(204, 207, 140);
+    margin: 0 auto;
+    text-align: center;
+}
+
+div#Fact4 > ul {
+    text-align: left;
+}
+
+/* Footer Styles */
+footer {
+	
+	overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+    overflow: hidden;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer small {
+    font-size: 12px;
+    text-align: center;
+}
+
+footer sub {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+footer sub a {
+    text-decoration: none;
+    color: #555;
+    margin: 0 5px;
+}
+
